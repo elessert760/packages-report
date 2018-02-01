@@ -35,7 +35,7 @@ The goal of packages-report is to FINISH THIS SENTENCE.
 ```{r, include = FALSE}
 
 ## load data/add-on-packages-freqtable.csv here in this chunk
-add <- read_csv(here("data/add-on-packages-freqtable.csv"))
+adds <- read_csv(here("data/add-on-packages-freqtable.csv"))
 ```
 
 I have `231` add-on packages installed.
@@ -45,7 +45,7 @@ Here's how they break down in terms of which version of R they were built under,
 ```{r, echo = FALSE}
 
 ## print the frequency table here
-add %>% pander()
+adds %>% pander()
 ## make it prettier if you know how
 ```
 
