@@ -10,6 +10,8 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 library(tidyverse)
+library(pander)
+library(here)
 ```
 
 # packages-report
@@ -31,8 +33,7 @@ library(tidyverse)
 The goal of packages-report is to FINISH THIS SENTENCE.
 
 ```{r, include = FALSE}
-library(pander)
-library(here)
+
 ## load data/add-on-packages-freqtable.csv here in this chunk
 add <- read_csv(here("data/add-on-packages-freqtable.csv"))
 ```
